@@ -2,3 +2,10 @@ def input_list():
     s = input("Введите числа через пробел: ")
     parts = s.split()
     result = []
+for i in parts:
+        if i.isdigit():
+            result.append(int(i))
+        else:
+            print("Обнаружено не число, пропускаем:", i)
+
+    return result
