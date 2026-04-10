@@ -21,3 +21,10 @@ def merge_sorted(a, b):
     result = a + b
     result.sort()
     return result
+while True:
+    print("\n1 - объединить списки")
+    print("2 - без повторов")
+    print("3 - сортировать")
+    print("4 - выход")
+
+    choice = input("Выбор: ")
