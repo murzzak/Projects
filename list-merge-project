@@ -17,3 +17,7 @@ def merge_unique(a, b):
         if i not in result:
             result.append(i)
     return result
+def merge_sorted(a, b):
+    result = a + b
+    result.sort()
+    return result
