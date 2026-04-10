@@ -11,3 +11,9 @@ for i in parts:
     return result
 def merge_lists(a, b):
     return a + b
+def merge_unique(a, b):
+    result = []
+    for i in a + b:
+        if i not in result:
+            result.append(i)
+    return result
